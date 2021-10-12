@@ -60,7 +60,7 @@ let questions = [
 
 
 function verify(question,option,answer){
-  var index = input.keyInSelect(option,question)+1
+  var index = input.keyInSelect(option,question,{cancel:false})+1
    if(index == answer){
     score+=1
     console.log(correct("Correct!!!"))
