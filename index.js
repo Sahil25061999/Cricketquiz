@@ -55,6 +55,14 @@ let questions = [
     '1']
     ,
     answer:2
+  },
+  {
+    question:'Who won the 2007 t20 world cup?',
+    option:['India',
+    'Pakistan',
+    'Australia']
+    ,
+    answer:1
   }
 ]
 
